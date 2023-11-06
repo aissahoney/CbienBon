@@ -11919,6 +11919,17 @@ nav #yellowText {
   text-decoration: none;
 }
 
+.section6 .row input {
+  background: black;
+  border: 1px solid #CDA45F;
+}
+
+textarea {
+  background: black;
+  color: #CDA45F;
+  border: 1px solid #CDA45F;
+}
+
 body {
   background-color: black;
   margin: 0;
