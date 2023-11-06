@@ -11907,6 +11907,7 @@ nav #yellowText {
   width: 100px;
   border-radius: 50%;
   border: 1px solid rgba(67, 66, 66, 0.5);
+  position: relative;
 }
 .section4 .menu {
   display: flex;
@@ -11914,9 +11915,14 @@ nav #yellowText {
   align-items: center;
   flex-direction: column;
 }
+.section4 #listSection4 li a {
+  text-decoration: none;
+}
 
 body {
   background-color: black;
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=app.css.map */
