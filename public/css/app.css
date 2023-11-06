@@ -11855,6 +11855,49 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+nav button {
+  border: 1px solid #ffc107;
+  color: white;
+}
+
+.section1 {
+  background: url(../../../public/img/hero-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  width: auto;
+  height: 1000px;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.textebanniere {
+  padding-top: 38%;
+  color: white;
+  padding-left: 15%;
+}
+
+.textebanniere span {
+  color: #ffc107;
+}
+
+.textebanniere button {
+  border: 2px solid #ffc107;
+  width: 13rem;
+}
+
+.section2 {
+  background: url(../../../public/img/about-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  color: white;
+}
+.section2 img {
+  max-height: 400px;
+  max-width: 400px;
+}
+
 body {
   background: url(../../../);
 }
