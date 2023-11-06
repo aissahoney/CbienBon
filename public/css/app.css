@@ -11894,8 +11894,11 @@ nav button {
   color: white;
 }
 .section2 img {
-  max-height: 400px;
-  max-width: 400px;
+  border-left: 2px solid #0004ff;
+  top: 50%;
+  bottom: 0;
+  max-height: 500px;
+  max-width: 500px;
 }
 
 body {
