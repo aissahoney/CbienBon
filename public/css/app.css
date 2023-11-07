@@ -12027,6 +12027,15 @@ button {
   width: 50vw;
 }
 
+.section10 .row input {
+  border-radius: 2px;
+  background: black;
+  border: 1px solid rgba(205, 165, 95, 0.4078431373);
+}
+.section10 .row input ::placeholder {
+  color: rgba(205, 165, 95, 0.4078431373);
+}
+
 body {
   background-color: black;
   margin: 0;

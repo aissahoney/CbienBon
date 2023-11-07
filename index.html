@@ -313,16 +313,53 @@
 
 <!-- ____________________________________________________________________________________ -->
 <!-- MAPS-->
-<section class="section10 container-fluid w-100 p-5">  
-
+<section class="section10">  
     <div class="container d-flex flex-column p-5">
             <h6 class="text-light text-inline">Contact</h6>
             <h2 class="text-warning">Contact Us</h2>                 
     </div>
     <div class="container d-flex flex-column justify-content-center align-items-center "id="map-container-google-2" class="z-depth-1-half map-container" style="height:250px">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.6877148420904!2d4.341362200000001!3d50.855466899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38e84af80dd%3A0xe85cd9cd0218a4aa!2sPl.%20de%20la%20Minoterie%2010%2C%201080%20Molenbeek-Saint-Jean!5e0!3m2!1sfr!2sbe!4v1699355242567!5m2!1sfr!2sbe" width="1350" height="250" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-    </div>                      
-
+    </div>   
+    <div>
+        <div>
+            
+        </div>
+        <div class="container d-flex flex-column">
+            <form class="container text-light gap-5 p-5">
+                <div class="row p-3 ">
+                    <div class="col">
+                        <!-- Name input -->
+                        <div class="form-outline">
+                            <input type="text" class="form-control" placeholder="Your Name" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- Email input -->
+                        <div class="form-outline">
+                            <input type="text" class="form-control" placeholder="Your Email"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col">
+                        <!-- Subject input -->
+                        <div class="form-outline">
+                            <input type="text" class="form-control" placeholder="Subject"/>
+                        </div>
+                    </div>
+                </div>
+                        <!-- Message Area -->
+                <div class="form-outline p-3 mb-4">
+                    <textarea class="form-control bg-black border-warning text-warning"  rows="4" >
+                    Message
+                    </textarea>   
+                </div>
+            </form>      
+        </div>
+        <button type="submit" class="btn btn-warning">Send Message</button> 
+    </div>
+</section>                   
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
