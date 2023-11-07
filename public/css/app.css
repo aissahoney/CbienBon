@@ -11855,6 +11855,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+nav {
+  background-color: rgba(0, 0, 0, 0.892);
+}
 nav button {
   border: 1px solid #CDA45F;
   color: white;
@@ -11994,7 +11997,6 @@ button {
   background-size: cover;
   height: 30vh;
   width: 30vw;
-  position: absolute;
 }
 
 .col8 {
