@@ -11861,6 +11861,8 @@ nav {
 nav button {
   border: 1px solid #CDA45F;
   color: white;
+  width: 9rem;
+  height: 2rem;
 }
 nav #yellowText {
   color: #CDA45F;
@@ -11945,12 +11947,6 @@ textarea {
   border-radius: 2px;
   border: 1px solid rgba(205, 165, 95, 0.4078431373);
   color: rgba(205, 165, 95, 0.4078431373);
-}
-
-button {
-  bornder: none;
-  color: white;
-  background-color: #CDA45F;
 }
 
 .col1 {
@@ -12050,6 +12046,14 @@ body {
 
 h2, .h2 {
   color: #CDA45F;
+}
+
+button {
+  border: none;
+  color: white;
+  width: 9rem;
+  height: 3rem;
+  background-color: #CDA45F;
 }
 
 /*# sourceMappingURL=app.css.map */
