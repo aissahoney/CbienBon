@@ -11908,6 +11908,18 @@ nav #yellowText {
   max-width: 500px;
 }
 
+.section3 {
+  background: #0B0B09;
+}
+.section3 .card1, .section3 .card2, .section3 .card3 {
+  background: #1A1814;
+  transition: background 2s;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+  background: #CDA45F;
+}
+
 .section4 {
   color: white;
 }
@@ -12029,13 +12041,15 @@ textarea {
 
 .section10 {
   color: white;
+  border-top: 1px solid rgba(205, 165, 95, 0.4078431373);
+  border-bottom: 1px solid rgba(205, 165, 95, 0.4078431373);
 }
-.section10 .row input {
-  border-radius: 2px;
+.section10 input {
+  border-radius: none;
   background: black;
   border: 1px solid rgba(205, 165, 95, 0.4078431373);
 }
-.section10 .row input ::placeholder {
+.section10 input ::placeholder {
   color: rgba(205, 165, 95, 0.4078431373);
 }
 
@@ -12045,11 +12059,17 @@ footer {
 }
 
 .search button {
-  top: 10px;
-  width: 120px;
-  height: 50px;
+  top: 9px;
   right: 10px;
-  font-size: 17px;
+}
+
+.listFooter a {
+  text-decoration: none;
+  color: white;
+}
+
+.copy {
+  background: #27231D;
 }
 
 body {
