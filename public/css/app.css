@@ -11867,7 +11867,7 @@ nav #yellowText {
 }
 
 .section1 {
-  background: url(../../../public/img/hero-bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../public/img/hero-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -11891,7 +11891,7 @@ nav #yellowText {
 }
 
 .section2 {
-  background: url(../../../public/img/about-bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../public/img/about-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -11903,6 +11903,27 @@ nav #yellowText {
   bottom: 0;
   max-height: 500px;
   max-width: 500px;
+}
+
+.section4 {
+  color: white;
+}
+.section4 img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid rgba(67, 66, 66, 0.5);
+  position: relative;
+}
+.section4 .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section4 #listSection4 li a {
+  text-decoration: none;
+  color: #CDA45F;
 }
 
 .section6 {
@@ -11988,27 +12009,30 @@ button {
   width: 30vw;
 }
 
-.card1 {
+.card4 {
   background: url(../../../public/img/chefs/chefs-1.jpg);
   background-size: cover;
   height: 50vh;
   width: 50vw;
 }
 
-.card2 {
+.card5 {
   background: url(../../../public/img/chefs/chefs-2.jpg);
   background-size: cover;
   height: 50vh;
   width: 50vw;
 }
 
-.card3 {
+.card6 {
   background: url(../../../public/img/chefs/chefs-3.jpg);
   background-size: cover;
   height: 50vh;
   width: 50vw;
 }
 
+.section10 {
+  color: white;
+}
 .section10 .row input {
   border-radius: 2px;
   background: black;
