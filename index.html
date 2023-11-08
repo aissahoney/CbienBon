@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="./public/css/app.css">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <script src="https://kit.fontawesome.com/59bb8e0ef9.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="./public/css/app.css">
     <title>resto bootstrap</title>
 </head>
 <body>
-    <!-- <nav class="navbar sticky-top bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sticky top</a>
-        </div>
-    </nav> -->
-
-
-
+<!-- ________________________________________________________________________________ -->
+<!-- NAVBAR -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top ">
         <div class="container d-flex flex-row justify-content-center align-items-center">
                 <a class="navbar-brand active" href="#">CBIENBON</a>
@@ -47,14 +41,14 @@
                     <a class="nav-link" href="#">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <button class ="bg-dark rounded-pill  ">BOOK A TABLE</button>
+                    <button class ="bg-dark rounded-pill ">BOOK A TABLE</button>
                 </li>
             </ul>
         </div>
         </div>
     </nav>
 <!-- __________________________________________________________________________________ -->
-    <!-- BANNIERE -->
+    <!-- BANNIERE SECTION 1-->
     <section class="section1 d-flex pb-5">
         <div class="textSection1 text-left">
             <h1>WELCOME TO <span> CBIENBON</span></h1>
@@ -69,7 +63,7 @@
         </div>
     </section>
 <!-- ________________________________________________________________________________-->
-<!-- ABOUT -->
+<!-- ABOUT SECTION 2-->
 
     <section class="section2 container-fluid d-flex flex-row justify-content-center align-items-center p-5">
         <div class="container d-flex flex-row justify-content-center align-items-center p-5 gap-5">
@@ -94,7 +88,7 @@
 </div>
     </section>
 <!-- ____________________________________________________________________________________ -->
-<!-- WHY US -->
+<!-- WHY US  SECTION 3-->
 
 <section class=" section3 container-fluid bg-dark w-100 p-5">  
 
@@ -121,7 +115,7 @@
 </div>                
 </section>
 <!-- ____________________________________________________________________________________ -->
-<!--MENU-->
+<!--MENU  SECTION 4-->
 <!-- Tabs navs -->
 <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
@@ -260,10 +254,46 @@
 </div>
 
 <!-- ____________________________________________________________________________________ -->
-<!-- EVENT -->
+<!-- EVENT SECTION 5-->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+
+
 
 <!-- ____________________________________________________________________________________ -->
-<!-- RESERVATION-->
+<!-- RESERVATION SECTION 6-->
 <section class="section6">
     <div class="container d-flex flex-column p-5">
         <h6 class="text-light">reservation</h6>
@@ -317,10 +347,16 @@
     
 </div>
 </form>
-<button type="submit">Book A Table</button>
+<button type="submit" class="rounded-pill">Book A Table</button>
 </section>
 <!-- ____________________________________________________________________________________ -->
-<!-- GALLERY -->
+<!--  SECTION 7 -->
+
+
+
+
+<!-- ____________________________________________________________________________________ -->
+<!-- GALLERY SECTION 8 -->
 <div class="section8 w-100 p-5">
 
     <div class=" container d-flex flex-column p-5">
@@ -343,7 +379,7 @@
     </div>
 </div>
 <!-- ____________________________________________________________________________________ -->
-<!-- CHEFS-->
+<!-- CHEFS SECTION 9-->
 <section class=" section9 container-fluid bg-dark w-100 p-5">  
 
     <div class="apropos container d-flex flex-column">
@@ -368,7 +404,7 @@
 </section>
 
 <!-- ____________________________________________________________________________________ -->
-<!-- MAPS-->
+<!-- MAPS SECTION 10-->
 <section class="section10">  
     <div class="container d-flex flex-column p-5">
             <h6 class="text-light text-inline">Contact</h6>
@@ -432,11 +468,13 @@
                     </textarea>   
                 </div>
             </form>
-            <button type="submit">Send Message</button>       
+            <button type="submit" class="rounded-pill">Send Message</button>       
         </div>
         
     </div>
 </section>
+<!-- ________________________________________________________________________________ -->
+<!-- FOOTER -->
 <footer class="text-white">
     <div class="container d-flex flex-row w-100">
         <div class="w-25">
@@ -511,15 +549,27 @@
     <div class="w-25">
         <p>Our Newsletter </p>
         <p>Tamen quem nulla quae legam multos aute sint culpa legam </p>
-        <button>Subscribe</button>
+        <div class="container">
+            <div class="row height-100 d-flex justify-content-center align-items-center">
+        
+                <div class="col-md-8">
+                    
+                    <div class="search position-relative">
+                        <input class="form-control">
+                        <button class="rounded-pill position-absolute">Subscrib</button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
 
     </div>
 </div>
     <div class="container d-flex align-items-center flex-column">
         <span>copyright</span>
     </div>
-</footer>
-<script src="https://kit.fontawesome.com/59bb8e0ef9.js" crossorigin="anonymous"></script>                   
+</footer>                  
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>    
 </body>
 </html>
