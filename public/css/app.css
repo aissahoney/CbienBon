@@ -11900,12 +11900,30 @@ nav .nav-link:hover {
   position: relative;
   color: white;
 }
-.section2 img {
-  border-left: 2px solid #CDA45F;
-  top: 50%;
+.section2 .img {
+  background: url(../../../public/img/about.jpg);
+  height: 30vw;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.zoom-in::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
   bottom: 0;
-  max-height: 500px;
-  max-width: 500px;
+  left: 0;
+  background: inherit;
+  background-size: cover;
+  transform-origin: center;
+  transition: transform 0.4s ease-in-out;
+}
+
+.zoom-in:hover::after {
+  transform: scale(1.05);
 }
 
 .section3 {
@@ -11962,6 +11980,10 @@ nav .nav-link:hover {
   background-size: cover;
   height: 30vh;
   width: 30vw;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .col2 {
@@ -11969,6 +11991,10 @@ nav .nav-link:hover {
   background-size: cover;
   height: 30vh;
   width: 30vw;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .col3 {
@@ -11976,6 +12002,10 @@ nav .nav-link:hover {
   background-size: cover;
   height: 30vh;
   width: 30vw;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .col4 {
@@ -11983,6 +12013,10 @@ nav .nav-link:hover {
   background-size: cover;
   height: 30vh;
   width: 30vw;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .col5 {
@@ -11990,6 +12024,10 @@ nav .nav-link:hover {
   background-size: cover;
   height: 30vh;
   width: 30vw;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .col6 {
@@ -11997,6 +12035,10 @@ nav .nav-link:hover {
   background-size: cover;
   height: 30vh;
   width: 30vw;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .col7 {
@@ -12004,14 +12046,20 @@ nav .nav-link:hover {
   background-size: cover;
   height: 30vh;
   width: 30vw;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .col8 {
   background: url(../../../public/img/gallery/gallery-8.jpg);
+  background-size: cover;
+  height: 30vh;
+  width: 30vw;
   position: relative;
   overflow: hidden;
   background-position: center center;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
