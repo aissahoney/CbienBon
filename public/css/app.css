@@ -11949,17 +11949,12 @@ nav .nav-link:hover {
 .section6 .row .col input {
   border-radius: 2px;
   background: black;
-  border: 1px solid rgba(205, 165, 95, 0.4078431373);
+  border: 1px solid rgba(205, 165, 95, 0.2666666667);
 }
-.section6 .row .col input ::placeholder {
-  background: green;
-  color: white;
-}
-
-textarea {
+.section6 textarea {
   border-radius: 2px;
-  border: 1px solid rgba(205, 165, 95, 0.4078431373);
-  color: rgba(205, 165, 95, 0.4078431373);
+  border: 1px solid rgba(205, 165, 95, 0.2666666667);
+  color: rgba(205, 165, 95, 0.0980392157);
 }
 
 .col1 {
@@ -12013,11 +12008,31 @@ textarea {
 
 .col8 {
   background: url(../../../public/img/gallery/gallery-8.jpg);
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
   background-size: cover;
-  height: 30vh;
-  width: 30vw;
+  background-repeat: no-repeat;
 }
 
+.zoom-in::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  background-size: cover;
+  transform-origin: center;
+  transition: transform 0.4s ease-in-out;
+}
+
+.zoom-in:hover::after {
+  transform: scale(1.05);
+}
+
+/* Nothing interesting  */
 .card4 {
   background: url(../../../public/img/chefs/chefs-1.jpg);
   background-size: cover;
@@ -12045,12 +12060,14 @@ textarea {
   border-bottom: 1px solid rgba(205, 165, 95, 0.4078431373);
 }
 .section10 input {
-  border-radius: none;
+  border-radius: 2px;
   background: black;
-  border: 1px solid rgba(205, 165, 95, 0.4078431373);
+  border: 1px solid rgba(205, 165, 95, 0.2666666667);
 }
-.section10 input ::placeholder {
-  color: rgba(205, 165, 95, 0.4078431373);
+.section10 textarea {
+  border-radius: 2px;
+  border: 1px solid rgba(205, 165, 95, 0.2666666667);
+  color: rgba(205, 165, 95, 0.0980392157);
 }
 
 .fa-solid {
