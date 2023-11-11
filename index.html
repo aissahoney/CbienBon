@@ -20,7 +20,7 @@
             <div class="collapse navbar-collapse" id="navbarlist">
             <ul class="navbar-nav container d-flex flex-row justify-content-center align-items-center">
                 <li class="nav-item">
-                    <a class="nav-link active " id="yellowText" href="#section1">Home</a>
+                    <a class="nav-link" id="yellowText" href="#section1">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#section2">About</a>
@@ -40,15 +40,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#section10">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <button class ="bg-dark rounded-pill ">BOOK A TABLE</a></button>
-                </li>
             </ul>
+            <div class="nav-item">
+                <button class ="bg-dark rounded-pill ">BOOK A TABLE</a></button>
+            </div>
         </div>
         </div>
     </nav>
 <!-- __________________________________________________________________________________ -->
-
 
 
     <!-- BANNIERE SECTION 1-->
@@ -125,141 +124,216 @@
 
 <!--MENU  SECTION 4-->
 <!-- Tabs navs -->
-<ul class="nav nav-tabs" id="myTab" role="tablist">
+<section class="section4" id="section4">
+    <div class="container d-flex flex-column p-5">
+        <h6 class="text-light">Menu</h6>
+        <h2>Check Our Tasty Menu </h2>
+    </div>
+</section>
+<ul class="nav nav-pills mb-3 d-flex align-items-center justify-content-center" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
-            role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+        <button class="nav-link active bg-none" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
     </li>
     <li class="nav-item" role="presentation">
-        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button"
-            role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Starters</button>
     </li>
     <li class="nav-item" role="presentation">
-        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button"
-            role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Salads</button>
     </li>
     <li class="nav-item" role="presentation">
-        <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane"
-            type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-speciality"
+            type="button" role="tab" aria-controls="pills-speciality" aria-selected="false">Speciality</button>
     </li>
 </ul>
-<div class="tab-content" id="myTabContent">
-    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-        <section class="section4" id="section4">
-            <div class="container d-flex flex-column p-5">
-                <h6 class="text-light">Menu</h6>
-                <h2>Check Our Tasty Menu </h2>
-            </div>
-            <div class="container d-flex flex-row justify-content-center align-items-center gap-5">
-                <div class="d-flex flex-column">
-                    <div>
+<div class="tab-content container d-flex align-items-center justify-content-center w-100" id="pills-tabContent">
+
+    <!-- _________All_____________________________________________________________________ -->
+
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <section class="section4 container d-flex flex-column justify-content-center align-items-center w-100">
+            <div class="container d-flex flex-row justify-content-center align-items-center gap-5 w-100">
+                <div class="container d-flex flex-column w-50 gap-5">
+                    <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/lobster-bisque.jpg" alt="">
-                        <p>Lobster Bisque .............................................. $5.95</p>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <div>
+                            <p>Lobster Bisque<span>.............................................. $7.95</span></p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+
                     </div>
-                    <div>
+                    <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/cake.jpg" alt="">
-                        <p>Crab Cake .............................................. $7.95</p>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <div>
+                            <p>Crab Cake<span>.............................................. $7.95</span></p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
                     </div>
-                    <div>
+                    <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/tuscan-grilled.jpg" alt="">
-                        <p>Tuscan Grilled .............................................. $9.95</p>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <div>
+                            <p>Tuscan Grilled<span>.............................................. $9.95</span></p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
                     </div>
-                    <div>
+                    <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/greek-salad.jpg" alt="">
-                        <p>Greek Salad .............................................. $9.95</p>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <div>
+                            <p>Greek Salad<span>.............................................. $9.95</span></p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
                     </div>
-                    <div>
+                    <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/lobster-roll.jpg" alt="">
-                        <p>Lobster Roll .............................................. $12.95</p>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <div>
+                            <p>Lobster Roll<span>.............................................. $12.95</span></p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
                     </div>
                 </div>
-        
-                <div class="d-flex flex-column">
-                    <div>
+
+                <div class="container d-flex flex-column w-50 gap-5">
+                    <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/bread-barrel.jpg" alt="">
-                        <p>Bread Barrel .............................................. $6.95</p>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <div>
+                            <p>Bread Barrel<span>.............................................. $6.95</span></p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
                     </div>
-                    <div>
+                    <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/caesar.jpg" alt="">
-                        <p>Caesar Selections .............................................. $8.95</p>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <div>
+                            <p>Caesar&nbspSelections<span>..............................................&nbsp$8.95</span>
+                            </p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
                     </div>
-                    <div>
+                    <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/mozzarella.jpg" alt="">
-                        <p>Mozzarella Stick .............................................. $5.95</p>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <div>
+                            <p>Mozzarella&nbspStick<span>..............................................&nbsp$5.95</span>
+                            </p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
                     </div>
-                    <div>
+                    <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/spinach-salad.jpg" alt="">
-                        <p>Spinach Salad .............................................. $9.95</p>
-                        <p>Lorem, deren, trataro, filede, nerada</p>
+                        <div>
+                            <p>Spinach Salad<span>.............................................. $9.95</span></p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-        <div class="container d-flex flex-row justify-content-center align-items-center gap-5">
-            <section class="section4">
-                <div class="container d-flex flex-column p-5">
-                    <h6 class="text-light">Menu</h6>
-                    <h2>Check Our Tasty Menu </h2>
+    </div>
+    <!-- ________________starters______________________ -->
+
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <section class="section4 container d-flex flex-column justify-content-center align-items-center w-100">
+            <div class="container d-flex flex-row justify-content-center align-items-center gap-5 w-100">
+                <div class="container d-flex flex-column w-50 gap-5">
+                    <div class="container d-flex flew-row gap-5">
+                        <img src="./public/img/menu/lobster-bisque.jpg" alt="">
+                        <div>
+                            <p>Lobster Bisque<span>..............................................$5.95</span></p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                    </div>
+                    <div class="container d-flex flew-row gap-5">
+                        <img src="./public/img/menu/mozzarella.jpg" alt="">
+                        <div>
+                            <p>Mozzarella Stick<span>.............................................$5.95</span></p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                    </div>
                 </div>
-            <div >
-                <img src="./public/img/menu/lobster-bisque.jpg" alt="">
-                <p>Lobster Bisque .............................................. $5.95</p>
-                <p>Lorem, deren, trataro, filede, nerada</p>
+                <div class="container d-flex flex-column w-50 gap-5">
+                    <div class="container d-flex flew-row gap-5">
+                        <img src="./public/img/menu/cake.jpg" alt="">
+                        <div>
+                            <p>Crab Cake<span>.............................................. $7.95</span></p>
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div >
-                <img src="./public/img/menu/mozzarella.jpg" alt="">
-                <p>Mozzarella Stick .............................................. $5.95</p>
-                <p>Lorem, deren, trataro, filede, nerada</p>
-            </div>
-            <div >
-                <img src="./public/img/menu/cake.jpg" alt="">
-                <p>Crab Cake .............................................. $7.95</p>
-                <p>Lorem, deren, trataro, filede, nerada</p>
-            </div>
-        </div>
-        </section>
     </div>
-    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-        <section class="section4">
-            <div class="container d-flex flex-column p-5">
-                <h6 class="text-light">Menu</h6>
-                <h2>Check Our Tasty Menu </h2>
-            </div>
-        <div class="container d-flex flex-row justify-content-center align-items-center gap-5">
-            <div class="d-flex flex-column">
-            <div >
-                <img src="./public/img/menu/bread-barrel.jpg" alt="">
-                <p>Bread Barrel .............................................. $6.95</p>
-                <p>Lorem, deren, trataro, filede, nerada</p>
-            </div>
-            <div >
-                <img src="./public/img/menu/lobster-roll.jpg" alt="">
-                <p>Lobster Roll .............................................. $12.95</p>
-                <p>Lorem, deren, trataro, filede, nerada</p>
-            </div>
-        </div>
-        <div class="d-flex flex-column">
-            <div>
-                <img src="./public/img/menu/tuscan-grilled.jpg" alt="">
-                <p>Tuscan Grilled .............................................. $9.95</p>
-                <p>Lorem, deren, trataro, filede, nerada</p>
-            </div>
-        </div>
-        </div>
-        </section>
-    </div>
-    <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...
-    </div>
+    </section>
 </div>
+
+
+
+<!-- ___________salads___________________ -->
+
+<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+    <section class="section4 container d-flex flex-column justify-content-center align-items-center w-100">
+        <div class="container d-flex flex-row justify-content-center align-items-center gap-5 w-100">
+            <div class="container d-flex flex-column w-50 gap-5">
+                <div class="container d-flex flew-row gap-5">
+                    <img src="./public/img/menu/bread-barrel.jpg" alt="">
+                    <div>
+                        <p>Bread Barrel <span>.............................................. $6.95</span></p>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+                <div class="container d-flex flew-row gap-5">
+                    <img src="./public/img/menu/lobster-roll.jpg" alt="">
+                    <div>
+                        <p>Lobster Roll <span>.............................................. $12.95</span></p>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container d-flex flex-column w-50 gap-5">
+                <div class="container d-flex flew-row gap-5">
+                    <img src="./public/img/menu/tuscan-grilled.jpg" alt="">
+                    <div>
+                        <p>Tuscan Grilled <span>.............................................. $9.95</span></p>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- __________________speciality_______________ -->
+<div class="tab-pane fade" id="pills-speciality" role="tabpanel" aria-labelledby="pills-profile-tab">
+    <section class="section4 container d-flex flex-column justify-content-center align-items-center w-100">
+        <div class="container d-flex flex-row justify-content-center align-items-center gap-5 w-100">
+            <div class="container d-flex flex-column w-50 gap-5">
+                <div class="container d-flex flew-row gap-5">
+                    <img src="./public/img/menu/lobster-bisque.jpg" alt="">
+                    <div>
+                        <p>Lobster Bisque<span>..............................................$5.95</span></p>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+                <div class="container d-flex flew-row gap-5">
+                    <img src="./public/img/menu/mozzarella.jpg" alt="">
+                    <div>
+                        <p>Mozzarella Stick<span>.............................................$5.95</span></p>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex flex-column w-50 gap-5">
+                <div class="container d-flex flew-row gap-5">
+                    <img src="./public/img/menu/cake.jpg" alt="">
+                    <div>
+                        <p>Crab Cake<span>.............................................. $7.95</span></p>
+                        <p>Lorem, deren, trataro, filede, nerada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- _______fin___________effect -->
 
 
 <!-- ____________________________________________________________________________________ -->
@@ -309,7 +383,7 @@
                 <div class="col w-50 p-5">
                     <img class="d-block img-fluid" src="./public/img/event-private.jpg" alt="">
                 </div>
-                <div class="col w-50 p-5">
+                <div class="col w-50 p-5 text-white" >
                     <h4>Private Parties </h4>
                     <h5 class="text-light">$290</h5>
                     <p><i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -478,18 +552,18 @@
     <div class="container d-flex flex-column justify-content-center align-items-center "id="map-container-google-2" class="z-depth-1-half map-container" style="height:250px">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.6877148420904!2d4.341362200000001!3d50.855466899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38e84af80dd%3A0xe85cd9cd0218a4aa!2sPl.%20de%20la%20Minoterie%2010%2C%201080%20Molenbeek-Saint-Jean!5e0!3m2!1sfr!2sbe!4v1699355242567!5m2!1sfr!2sbe" width="1350" height="250" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
     </div>   
-    <div class="container d-flex flex-row w-100 p-5">
-        <div class="d-flex flex-column align-items-center p-5 bg-black w-25">
-            <div class="icon d-flex flex-row align-items-flex-start gap-5">
+    <div class="row container d-flex flex-row w-100 p-1">
+        <div class=" col container d-flex flex-column align-items-center p-5 bg-black w-20">
+            <div class="icon d-flex flex-row align-items-flex-start gap-2">
                 <div class="light">
                     <i class="fa-solid fa-location-dot"></i>
                 </div>
-                <div>
+                <div >
                     <p>Location:</p>
                     <p>A108 Adam Street, <br>New York, NY 535022</p>
                 </div>
             </div>
-            <div class="icon d-flex flex-row align-items-flex-start gap-5">
+            <div class="icon d-flex flex-row align-items-flex-start gap-2">
                 <div class="light">
                     <i class="fa-solid fa-clock"></i>
                 </div>
@@ -499,7 +573,7 @@
                     <p>11:00 AM - 2300 PM</p>
                 </div>
             </div>
-            <div class="icon d-flex flex-row align-items-flex-start gap-5">
+            <div class="icon d-flex flex-row align-items-flex-start gap-2">
                 <div class="light">
                     <i class="fa-solid fa-envelope"></i>
                 </div>
@@ -508,18 +582,18 @@
                     <p>info@example.com</p>
                 </div>
             </div>
-            <div class="icon d-flex flex-row align-items-flex-start gap-5">
+            <div class="icon d-flex flex-row align-items-flex-start gap-2">
                 <div class="light">
                     <i class="fa-solid fa-mobile"></i>
                 </div>
                 <div>
                     <p>Call:</p>
-                    <p>+1 5589 55488 555</p>
+                    <p>+1558955488555</p>
                 </div>
             </div>
         </div>
-        <div class="container align-items-center d-flex flex-column bg-transparent w-75">
-            <form class="container text-light gap-5 p-5">
+        <div class=" col align-items-center d-flex flex-column bg-transparent w-90">
+            <form class=" text-light p-5">
                 <div class="row p-3 ">
                     <div class="col">
                         <!-- Name input -->
@@ -559,8 +633,8 @@
 
 <!-- FOOTER -->
 <footer class="text-white pt-5">
-    <div class="container d-flex flex-row w-100">
-        <div class="w-25">
+    <div class=" col container d-flex flex-row w-100">
+        <div class=" row container w-25">
             <p>CBIENBON</p>
             <ul>
                 <li>
@@ -577,10 +651,10 @@
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-linkedin-in"></i>
                 </li>
-    
+
             </ul>
         </div>
-        <div class=" listFooter w-25">
+        <div class=" row container row listFooter w-25">
             <p>Useful links</p>
             <ul>
                 <li>
@@ -600,7 +674,7 @@
                 </li>
             </ul>
         </div>
-        <div class="listFooter w-25">
+        <div class="row container listFooter w-25">
             <p>
                 Our Services
             </p>
@@ -628,27 +702,24 @@
                 </li>
             </ul>
         </div>
-    
-    <div class="w-25">
-        <p>Our Newsletter </p>
-        <p>Tamen quem nulla quae legam multos aute sint culpa legam </p>
-        <div class="container">
-            <div class="row height-100 d-flex justify-content-center align-items-center">
-        
-                <div class="col-md-8">
-                    
-                    <div class="search position-relative">
-                        <input class="form-control p-3 rounded-pill " >
-                        <button class="rounded-pill position-absolute">Subscrib</button>
+
+        <div class="row container w-25">
+            <p>Our Newsletter </p>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam </p>
+            <div class="container">
+                <div class="row height-100 d-flex justify-content-center align-items-center">
+
+                    <div class="col-md-8">
+
+                        <div class="search position-relative">
+                            <input class="form-control p-3 rounded-pill ">
+                            <button class="rounded-pill position-absolute">Subscrib</button>
+                        </div>
                     </div>
-                    
                 </div>
-                
             </div>
         </div>
-
     </div>
-</div>
     <div class=" copy  d-flex align-items-center flex-column p-2">
         <span>copyright CBIENBON. All Right Reseved</span>
     </div>
