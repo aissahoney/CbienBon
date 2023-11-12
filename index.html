@@ -51,10 +51,11 @@
 
 
     <!-- BANNIERE SECTION 1-->
-    <section class="section1 d-flex pb-5" id="section1">
-        <div class="textSection1 text-left">
+    <section class="col section1 d-flex pb-5" id="section1">
+        <div class="row textSection1 text-left">
             <h1>WELCOME TO <span> CBIENBON</span></h1>
             <h4>Delivering great food for more than 18 years! </h4>
+            <div class="buttons d-flex flex-row">
             <button type="button" class="btn btn-transparent btn-lg rounded-pill text-light">
                 OUR
                 MENU
@@ -63,6 +64,7 @@
                 TABLE
             </button>
         </div>
+        </div>
     </section>
 <!-- ________________________________________________________________________________-->
 
@@ -70,26 +72,28 @@
 
 <!-- ABOUT SECTION 2-->
     <section class="section2 container-fluid d-flex flex-row justify-content-center align-items-center p-5" id="section2">
-        <div class="container d-flex flex-row justify-content-center align-items-center p-5 gap-5">
-<div class="container d-flex flex-column align-items-center" style="width: 50%">
-    <h3>Voluptatem dignissimos provident quasi corporis
-        voluptates sit assumenda.</h3>
-    <p>Lorem jpsum dofor sit amer consectitur acpisting efit sed do elusmod tempor incididunt
-        u labore et dolare mayna alqua.</p>
-    <ul>
-        <li> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-        <li>Duls aute irure dolor in reprehenderit in voluptate velit.</li>
-        <li> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duls aute irure dolar in reprehenderit in voluptate tridera storacalaperda mastiro dolore eu fugiat nulla parlatur.</li>
-    </ul>
-    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duls aute irure dolor in reprenendert in voluptate velit esse clum dolore eu fugiat nulla parlatur. <br>
-        Excepteur
-        Sint occascat cupidatat non proident, sunt in culpa qui olficia deserunt mollit anim id
-        est laborum</p>
-</div>
-<div class="img  zoom-in"  style="width: 40%">
-    <!-- <img src="./public/img/about.jpg" alt="image interieur resto"> -->
-</div>
-</div>
+        <div class="row about d-flex justify-content-center align-items-center p-5 gap-5">
+            <div class="col d-flex flex-column align-items-center" style="width: 50%">
+                <h3>Voluptatem dignissimos provident quasi corporis
+                    voluptates sit assumenda.</h3>
+                <p>Lorem jpsum dofor sit amer consectitur acpisting efit sed do elusmod tempor incididunt
+                    u labore et dolare mayna alqua.</p>
+                <ul>
+                    <li> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li>Duls aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duls aute irure dolar in reprehenderit in
+                        voluptate tridera storacalaperda mastiro dolore eu fugiat nulla parlatur.</li>
+                </ul>
+                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duls aute irure dolor in reprenendert in
+                    voluptate velit esse clum dolore eu fugiat nulla parlatur. <br>
+                    Excepteur
+                    Sint occascat cupidatat non proident, sunt in culpa qui olficia deserunt mollit anim id
+                    est laborum</p>
+            </div>
+            <div class="col img  zoom-in" style="width: 40%">
+                <!-- <img src="./public/img/about.jpg" alt="image interieur resto"> -->
+            </div>
+        </div>
     </section>
 <!-- ____________________________________________________________________________________ -->
 
@@ -97,11 +101,11 @@
 <!-- WHY US  SECTION 3-->
 <section class=" section3 container-fluid bg-dark w-100 p-5">  
 
-    <div class="apropos container d-flex flex-column">
+    <div class=" container d-flex flex-column p-2">
             <h6 class="text-light">Why us</h6>
             <h2>Why Choose Our Restaurant</h2>                 
     </div>
-    <div class=" row container d-flex flex-row justify-content-sapce-evenly align-items-center gap-5 w-100 col-3">
+    <div class="row container d-flex justify-content-sapce-evenly align-items-center gap-5 w-100 col-3 p-2">
         <div class="col colText container">
             <h2 class="nbr text-warning" >01 </h2>
             <h2 class="text-light">Lorem Ipsum</h2>
@@ -124,27 +128,27 @@
 
 <!--MENU  SECTION 4-->
 <!-- Tabs navs -->
-<section class="section4" id="section4">
-    <div class="container d-flex flex-column p-5">
+<section class="section4 p-5" id="section4">
+    <div class=" d-flex flex-column p-2">
         <h6 class="text-light">Menu</h6>
         <h2>Check Our Tasty Menu </h2>
     </div>
 </section>
 <ul class="nav nav-pills mb-3 d-flex align-items-center justify-content-center" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
-        <button class="nav-link active bg-none" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+        <button class="nav-link bg-transparent" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
             type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
     </li>
     <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+        <button class="nav-link bg-transparent" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
             type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Starters</button>
     </li>
     <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+        <button class="nav-link bg-transparent" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
             type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Salads</button>
     </li>
     <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-speciality"
+        <button class="nav-link bg-transparent" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-speciality"
             type="button" role="tab" aria-controls="pills-speciality" aria-selected="false">Speciality</button>
     </li>
 </ul>
@@ -153,9 +157,9 @@
     <!-- _________All_____________________________________________________________________ -->
 
     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-        <section class="section4 container d-flex flex-column justify-content-center align-items-center w-100">
-            <div class="container d-flex flex-row justify-content-center align-items-center gap-5 w-100">
-                <div class="container d-flex flex-column w-50 gap-5">
+        <section class="section4bis container d-flex flex-column justify-content-center align-items-center w-100">
+            <div class="row container d-flex justify-content-center align-items-center gap-5 w-100">
+                <div class="col container d-flex flex-column w-50 gap-5">
                     <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/lobster-bisque.jpg" alt="">
                         <div>
@@ -194,7 +198,7 @@
                     </div>
                 </div>
 
-                <div class="container d-flex flex-column w-50 gap-5">
+                <div class="col container d-flex flex-column w-50 gap-5">
                     <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/bread-barrel.jpg" alt="">
                         <div>
@@ -232,9 +236,9 @@
     <!-- ________________starters______________________ -->
 
     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-        <section class="section4 container d-flex flex-column justify-content-center align-items-center w-100">
-            <div class="container d-flex flex-row justify-content-center align-items-center gap-5 w-100">
-                <div class="container d-flex flex-column w-50 gap-5">
+        <section class="section4bis container d-flex flex-column justify-content-center align-items-center w-100">
+            <div class="row container d-flex justify-content-center align-items-center gap-5 w-100">
+                <div class="col container d-flex flex-column w-50 gap-5">
                     <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/lobster-bisque.jpg" alt="">
                         <div>
@@ -250,7 +254,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container d-flex flex-column w-50 gap-5">
+                <div class="col container d-flex flex-column w-50 gap-5">
                     <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/cake.jpg" alt="">
                         <div>
@@ -267,9 +271,9 @@
     <!-- ___________salads___________________ -->
 
     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-        <section class="section4 container d-flex flex-column justify-content-center align-items-center w-100">
-            <div class="container d-flex flex-row justify-content-center align-items-center gap-5 w-100">
-                <div class="container d-flex flex-column w-50 gap-5">
+        <section class="section4bis container d-flex flex-column justify-content-center align-items-center w-100">
+            <div class="row container d-flex justify-content-center align-items-center gap-5 w-100">
+                <div class="col container d-flex flex-column w-50 gap-5">
                     <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/bread-barrel.jpg" alt="">
                         <div>
@@ -286,7 +290,7 @@
 
                     </div>
                 </div>
-                <div class="container d-flex flex-column w-50 gap-5">
+                <div class="col container d-flex flex-column w-50 gap-5">
                     <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/tuscan-grilled.jpg" alt="">
                         <div>
@@ -300,9 +304,9 @@
 
     <!-- __________________speciality_______________ -->
     <div class="tab-pane fade" id="pills-speciality" role="tabpanel" aria-labelledby="pills-profile-tab">
-        <section class="section4 container d-flex flex-column justify-content-center align-items-center w-100">
-            <div class="container d-flex flex-row justify-content-center align-items-center gap-5 w-100">
-                <div class="container d-flex flex-column w-50 gap-5">
+        <section class="section4bis container d-flex flex-column justify-content-center align-items-center w-100">
+            <div class="row container d-flex justify-content-center align-items-center gap-5 w-100">
+                <div class="col container d-flex flex-column w-50 gap-5">
                     <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/lobster-bisque.jpg" alt="">
                         <div>
@@ -318,7 +322,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container d-flex flex-column w-50 gap-5">
+                <div class="col container d-flex flex-column w-50 gap-5">
                     <div class="container d-flex flew-row gap-5">
                         <img src="./public/img/menu/cake.jpg" alt="">
                         <div>
@@ -334,9 +338,9 @@
 <!-- ____________________________________________________________________________________ -->
 
 <!-- EVENT SECTION 5-->
-<section class=" section5 container-fluid bg-transparent w-100 p-5" id="section5">
+<section class="section5 container-fluid bg-transparent w-100 p-5" id="section5">
 
-    <div class=" container d-flex flex-column">
+    <div class="d-flex flex-column p-2">
         <h6 class="text-light">Events</h6>
         <h2>Organize Your Events in our Restaurant</h2>
     </div>
@@ -351,7 +355,7 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="row align-items-center w-100 p-5">
+                <div class="row align-items-center w-100 p-2">
                     <div class="col w-50 p-5">
                         <img class="d-block img-fluid" src="./public/img/event-birthday.jpg" alt="">
                     </div>
@@ -375,7 +379,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="row align-items-center w-100 p-5">
+                <div class="row align-items-center w-100 p-2">
                     <div class="col w-50 p-5">
                         <img class="d-block img-fluid" src="./public/img/event-private.jpg" alt="">
                     </div>
@@ -398,7 +402,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="row align-items-center w-100 p-5">
+                <div class="row align-items-center w-100 p-2">
                     <div class="col w-50 p-5">
                         <img class="d-block img-fluid" src="./public/img/event-custom.jpg" alt="">
                     </div>
@@ -425,8 +429,8 @@
 
 
 <!-- RESERVATION SECTION 6-->
-<section class="section6">
-    <div class="container d-flex flex-column p-5">
+<section class="section6 p-5">
+    <div class="container d-flex flex-column p-2">
         <h6 class="text-light">reservation</h6>
         <h2>Book A Table</h2>
     </div>
@@ -494,7 +498,7 @@
 <!-- GALLERY SECTION 8 -->
 <div class="section8 w-100 p-5" id="section8">
 
-    <div class=" container d-flex flex-column p-5">
+    <div class=" container d-flex flex-column p-4">
         <h6 class="text-light">Gallery</h6>
         <h2>Some Photos From Our Restaurant</h2>
     </div>
@@ -517,9 +521,9 @@
 
 
 <!-- CHEFS SECTION 9-->
-<section class=" section9 container-fluid bg-dark w-100 p-5" id="section9">  
+<section class=" section9 container-fluid bg-black w-100 p-5" id="section9">  
 
-    <div class="apropos container d-flex flex-column">
+    <div class=" container d-flex flex-column p-4">
             <h6 class="text-light">Chefs</h6>
             <h2>Our Proffesional Chefs</h2>                 
     </div>
@@ -542,8 +546,8 @@
 
 
 <!-- CONTACT MAPS SECTION 10-->
-<section class="section10" id="section10">  
-    <div class="container d-flex flex-column p-5">
+<section class="section10 p-5" id="section10">  
+    <div class="container d-flex flex-column p-4">
             <h6 class="text-light text-inline">Contact</h6>
             <h2>Contact Us</h2>                 
     </div>
@@ -630,8 +634,8 @@
 
 
 <!-- FOOTER -->
-<footer class="text-white pt-5">
-    <div class=" col container d-flex flex-row w-100">
+<footer class=" row d-flex flex-column w-100 text-white pt-5">
+    <div class=" col container d-flex flex-row w-100 p-5 ">
         <div class=" row container w-25">
             <p>CBIENBON</p>
             <ul>
@@ -643,16 +647,25 @@
                     <p>Phone: +1 5589 55488 55</p>
                     <p>Email: info@example.com</p>
                 </li>
-                <li>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
+                <li class="d-flex flex-row gap-3">
+                    <div class="iconFooter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="iconFooter">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="iconFooter">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="iconFooter">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    
                 </li>
 
             </ul>
         </div>
-        <div class=" row container row listFooter w-25">
+        <div class="row container row listFooter w-25">
             <p>Useful links</p>
             <ul>
                 <li>
@@ -710,7 +723,7 @@
                     <div class="col-md-8">
 
                         <div class="search position-relative">
-                            <input class="form-control p-3 rounded-pill ">
+                            <input class="form-control p-3 rounded-pill bg-dark border-warning " width="100px">
                             <button class="rounded-pill position-absolute">Subscrib</button>
                         </div>
                     </div>
@@ -718,7 +731,7 @@
             </div>
         </div>
     </div>
-    <div class=" copy  d-flex align-items-center flex-column p-2">
+    <div class="copy d-flex align-items-center flex-column pt-5 w-100 ">
         <span>copyright CBIENBON. All Right Reseved</span>
     </div>
 </footer>                  
