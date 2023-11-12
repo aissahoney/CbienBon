@@ -11929,13 +11929,19 @@ nav .nav-link:hover {
 .section3 {
   background: #0B0B09;
 }
-.section3 .card1, .section3 .card2, .section3 .card3 {
-  background: #1A1814;
-  transition: background 2s;
+
+.colText {
+  background: #1a1814;
+  height: 15vw;
+  padding-top: 2%;
+  transition: background, color;
 }
 
-.card1:hover, .card2:hover, .card3:hover {
+.colText:hover {
   background: #CDA45F;
+}
+.colText:hover .col .nbr {
+  color: white;
 }
 
 .section4 {
@@ -11958,6 +11964,13 @@ nav .nav-link:hover {
   color: #CDA45F;
 }
 
+.section5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../../public/img/events-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
 .section6 {
   display: flex;
   flex-direction: column;
@@ -11978,8 +11991,9 @@ nav .nav-link:hover {
 .col1 {
   background: url("../../../public/img/gallery/gallery-1.jpg");
   background-size: cover;
-  height: 30vh;
+  height: 35vh;
   width: 30vw;
+  border: 1px solid grey;
   position: relative;
   overflow: hidden;
   background-position: center center;
@@ -11989,8 +12003,9 @@ nav .nav-link:hover {
 .col2 {
   background: url("../../../public/img/gallery/gallery-2.jpg");
   background-size: cover;
-  height: 30vh;
+  height: 35vh;
   width: 30vw;
+  border: 1px solid grey;
   position: relative;
   overflow: hidden;
   background-position: center center;
@@ -12000,8 +12015,9 @@ nav .nav-link:hover {
 .col3 {
   background: url("../../../public/img/gallery/gallery-3.jpg");
   background-size: cover;
-  height: 30vh;
+  height: 35vh;
   width: 30vw;
+  border: 1px solid grey;
   position: relative;
   overflow: hidden;
   background-position: center center;
@@ -12011,8 +12027,9 @@ nav .nav-link:hover {
 .col4 {
   background: url("../../../public/img/gallery/gallery-4.jpg");
   background-size: cover;
-  height: 30vh;
+  height: 35vh;
   width: 30vw;
+  border: 1px solid grey;
   position: relative;
   overflow: hidden;
   background-position: center center;
@@ -12022,8 +12039,9 @@ nav .nav-link:hover {
 .col5 {
   background: url("../../../public/img/gallery/gallery-5.jpg");
   background-size: cover;
-  height: 30vh;
+  height: 35vh;
   width: 30vw;
+  border: 1px solid grey;
   position: relative;
   overflow: hidden;
   background-position: center center;
@@ -12033,8 +12051,9 @@ nav .nav-link:hover {
 .col6 {
   background: url(../../../public/img/gallery/gallery-6.jpg);
   background-size: cover;
-  height: 30vh;
+  height: 35vh;
   width: 30vw;
+  border: 1px solid grey;
   position: relative;
   overflow: hidden;
   background-position: center center;
@@ -12044,8 +12063,9 @@ nav .nav-link:hover {
 .col7 {
   background: url(../../../public/img/gallery/gallery-7.jpg);
   background-size: cover;
-  height: 30vh;
+  height: 35vh;
   width: 30vw;
+  border: 1px solid grey;
   position: relative;
   overflow: hidden;
   background-position: center center;
@@ -12055,8 +12075,9 @@ nav .nav-link:hover {
 .col8 {
   background: url(../../../public/img/gallery/gallery-8.jpg);
   background-size: cover;
-  height: 30vh;
+  height: 35vh;
   width: 30vw;
+  border: 1px solid grey;
   position: relative;
   overflow: hidden;
   background-position: center center;
@@ -12080,7 +12101,6 @@ nav .nav-link:hover {
   transform: scale(1.05);
 }
 
-/* Nothing interesting  */
 .card4 {
   background: url(../../../public/img/chefs/chefs-1.jpg);
   background-size: cover;
@@ -12100,6 +12120,28 @@ nav .nav-link:hover {
   background-size: cover;
   height: 50vh;
   width: 50vw;
+}
+
+.card6 {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideUp {
+  position: relative;
+  font-family: tahoma;
+  font-size: 35px;
+  opacity: 0;
+}
+
+.slideUp:hover {
+  transition: slideUp ease 5s;
+  top: 50vw;
+  left: 10px;
+  opacity: 100;
 }
 
 .section10 {
