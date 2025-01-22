@@ -11957,13 +11957,13 @@ nav .nav-link:hover {
 }
 .section3 {
   background: #0B0B09;
+  transition: all 0.4s ease-in-out;
 }
 
 .colText {
   background: #1a1814;
   height: 15vw;
   padding-top: 2%;
-  transition: background, color;
 }
 
 .colText:hover {
@@ -12202,7 +12202,7 @@ nav .nav-link:hover {
 }
 
 .card5 {
-  background: url(../../../public/img/chefs/chefs-2.jpg);
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), url(../../../public/img/chefs/chefs-2.jpg);
   background-size: cover;
   height: 50vh;
   width: 50vw;
@@ -12231,18 +12231,18 @@ nav .nav-link:hover {
 }
 .section10 {
   color: white;
-  border-top: 1px solid rgba(205, 165, 95, 0.4078431373);
-  border-bottom: 1px solid rgba(205, 165, 95, 0.4078431373);
+  border-top: 1.5px solid rgba(205, 165, 95, 0.6470588235);
+  border-bottom: 1.5px solid rgba(205, 165, 95, 0.6470588235);
 }
 .section10 input {
   border-radius: 2px;
   background: black;
-  border: 1px solid rgba(205, 165, 95, 0.2666666667);
+  border: 1.5px solid #CDA45F;
 }
 .section10 textarea {
   border-radius: 2px;
-  border: 1px solid rgba(205, 165, 95, 0.2666666667);
-  color: rgba(205, 165, 95, 0.0980392157);
+  border: 1.5px solid #CDA45F;
+  color: #CDA45F;
 }
 
 .fa-solid {
